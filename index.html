@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <header class="header">
+                <h1>Formulario do Evento </h1>
+            </header>
+
+            <div class="main">
+                <form action="pegarinformacoes" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome...">
+
+                    <label for="email">Data de Nascimento:</label>
+                    <input type="date" name="data" placeholder="Digite sua data de nascimento...">
+                    <span>
+                    <label for="genero">Gênero:</label>
+                    <input type="radio"name="genero" value="Masculino">
+                    <label for="masculino">Masculino</label>
+                    
+                    <input type="radio"name="genero" value="Feminino">
+                    <label for="feminino">Feminino</label>
+                    </span>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
