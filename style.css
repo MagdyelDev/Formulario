@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, #3d4cad 0%, #1d44b8 100%);
+    background: linear-gradient(90deg, #13193f 0%, #1d44b8 100%);
 }
 
 .container {
@@ -74,4 +74,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-
